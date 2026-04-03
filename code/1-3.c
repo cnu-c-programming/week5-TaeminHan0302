@@ -1,4 +1,4 @@
-#include <Stdio.h>
+#include <stdio.h>
 
 void print_reverse(int *arr, int size) {
 
