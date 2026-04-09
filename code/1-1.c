@@ -3,6 +3,7 @@
 void double_elements(int *n, int size) {
   for (int i = 0; i < size; i++) {
     *(n + i) *= 2;
+  }
 }
 
 int main() {
@@ -13,7 +14,7 @@ int main() {
   double_elements(arr, 5);
 
   for(int i=0; i<5; i++){
-    printf("%d\n", arr[1]);
+    printf("%d\n", arr[i]);
   }
   return 0;
 }
