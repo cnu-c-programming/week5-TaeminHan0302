@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void double_elements() {
-
+void double_elements(int *n, int size) {
+  for (int i = 0; i < size; i++) {
+    *(n + i) *= 2;
 }
 
 int main() {
